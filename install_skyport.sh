@@ -130,7 +130,7 @@ install_panel() {
   echo "Installing Skyport Panel..."
   sudo apt install git
   cd
-  sudo git clone https://github.com/skyportlabs/panel /var/www/skyport/panel
+  sudo git clone https://github.com/wesamdev/skyport-panel /var/www/skyport/panel
   check_error "Cloning Skyport Panel repository"
 
   cd /var/www/skyport/panel
